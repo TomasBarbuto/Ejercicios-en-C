@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Ejercicio-3.1/src/ValidarNumeroFlotante.h&apos;" deleteContents="false" description="Delete resource &apos;Ejercicio-3.1/src/ValidarNumeroFlotante.h&apos;" element1="/Ejercicio-3.1/src/ValidarNumeroFlotante.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1662079931962"/>
+</session>

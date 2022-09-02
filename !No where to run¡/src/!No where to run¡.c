@@ -1,0 +1,29 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+setbuf(stdout, NULL);
+
+    int numeroUno;
+    int numeroDos;
+    int numeroTres;
+    int resultado;
+
+    printf("Introduzca 3 numeros, a continuacion le diremos el mayor de ellos");
+    scanf("%d", &numeroUno);
+    scanf("%d", &numeroDos);
+    scanf("%d", &numeroTres);
+
+    if(numeroUno > numeroDos && numeroUno > numeroTres){
+        resultado = numeroUno;
+    }else if(numeroDos > numeroTres){
+        resultado = numeroDos;
+    }else{
+        resultado = numeroTres;
+    }
+
+    printf("El Numero mayor es: %d ", resultado);
+
+    return 0;
+}
