@@ -22,7 +22,7 @@ int main(void) {
 	if(respuesta == 0){
 		printf("El resultado es: %d", numeroPar);
 	}else{
-		printf("El numero ingresado no es par");
+		printf("El numero no es par");
 	}
 	return 0;
 }
